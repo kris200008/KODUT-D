@@ -1,0 +1,12 @@
+algnesaldo = 5000
+valik = input("deposiit või väljavote? ")
+
+if valik == "deposiit":
+    summa = int(input("Sisestatav summa: "))
+    algnesaldo += summa
+    print(" Lõpp Saldo", algnesaldo)
+
+elif valik == "väljavõte":
+    summa = int(input("Väljavõetav summa: "))
+    algnesaldo -= summa
+    print(" Lõpp Saldo", algnesaldo)
